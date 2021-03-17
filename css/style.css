@@ -66,6 +66,14 @@ html {
     text-transform: uppercase;
 }
 
+#and {
+  text-transform: lowercase;
+}
+
+.border {
+  display: inline-block;
+}
+
 .ptext .border {
 background-color: #111;
 color: white;
