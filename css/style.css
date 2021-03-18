@@ -56,18 +56,56 @@ html {
 }
 
 .ptext {
-    position: absolute;
+    /* position:absolute; */
     top: 50%;
     width: 100%;
     text-align: center;
     color: black;
     font-size: 27px;
-    letter-spacing: 8px;
+    letter-spacing: 2px;
     text-transform: uppercase;
+    padding-top: 12%;
+}
+
+#vet {
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: none;
+}
+
+a {
+  color: #ddd;
+  text-decoration: none;
+}
+
+a:hover 
+{
+   color:#00A0C6; 
+   text-decoration:none; 
+   cursor:pointer;  
+}
+
+a#aReverse:hover {
+  color:#00A0C6; 
+  text-decoration:none; 
+  cursor:pointer; 
+}
+
+#bm, #and {
+  font-weight: bold;
 }
 
 #and {
   text-transform: lowercase;
+}
+
+img {
+  width: 25%;
+  height: auto;
+}
+
+#aReverse {
+  color: #111;
 }
 
 .border {
@@ -80,8 +118,13 @@ color: white;
 padding: 20px;
 }
 
-.ptext .border.trans {
-    background-color: transparent;
+.ptext .border.reverse {
+  background-color: white;
+  color: #111;
+  font-weight: bold;
+  a {
+    color: #111;
+  }
 }
 
 @media(max-width: 568px){
@@ -90,6 +133,7 @@ padding: 20px;
     }
     .ptext .border{
     padding: 4px;
+    margin-top: 40%;
     text-align: center;
     }
 }
